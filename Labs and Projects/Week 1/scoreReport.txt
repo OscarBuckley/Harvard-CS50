@@ -1,0 +1,11 @@
+Week 1 - C
+-----------
+hello
+Score: 100%
+-----------
+mario-more
+Score: 100%
+-----------
+credit
+Score: 85%
+# for some reason check50 returned an error code on a few testcases despite the code being correct. Too bad!

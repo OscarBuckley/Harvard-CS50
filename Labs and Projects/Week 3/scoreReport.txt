@@ -1,0 +1,10 @@
+Week 3 - Algorithms
+-------------------
+sort
+Score: 100%
+-----------
+plurality
+Score: 100%
+-----------
+runoff
+Score: 100%

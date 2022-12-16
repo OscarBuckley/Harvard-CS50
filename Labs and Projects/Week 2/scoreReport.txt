@@ -1,0 +1,10 @@
+Week 2 - Arrays
+---------------
+scrabble
+Score: 100%
+-----------
+readability
+Score: 100%
+-----------
+caesar
+Score: 100%

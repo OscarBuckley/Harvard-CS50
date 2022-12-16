@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            // document add even listener domcontent is equivalent to the main function in C
+            document.addEventListener('DOMContentLoaded', function(){
+
+                //notes: queryselector focuses on the specific element on a web page based on class/id/tags, etc.
+                //eventlistener anticipates input from user for when at different state.
+                
+                //q1 correct answer function
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function() {
+                    correct.style.backgroundColor = "#00FF00";
+                    document.querySelector('.results1').innerHTML = "Correct!";
+                });
+
+                //q1 wrong answer function
+                let wrong = document.querySelectorAll('.wrong')
+                for (let i = 0; i < wrong.length; i++){
+                    wrong[i].addEventListener('click', function(){
+                        wrong[i].style.backgroundColor = "#FF0000";
+                        document.querySelector('.results1').innerHTML = "Wrong!";
+                    });
+                }
+
+            //q2 answer function
+            let entered = document.querySelector(".submit");
+            entered.addEventListener("click", function() {
+                let answer = document.querySelector(".answer");
+                if (answer.value === "sneed")
+                {
+                    answer.style.backgroundColor = "#00FF00";
+                    document.querySelector('.results2').innerHTML = "Correct!";
+                }
+                else
+                {
+                    answer.style.backgroundColor = "#FF0000";
+                    document.querySelector('.results2').innerHTML = "Wrong!";
+                }
+            });
+        });
+
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>How many holes does a straw have?</h3>
+                <button class="correct">0</button>
+                <button class="wrong">1</button>
+                <button class="wrong">2</button>
+                <button class="wrong">3</button>
+
+                <p class="results1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Why do you think so?</h3>
+                <input class="answer">
+                <button class="submit">Submit</button>
+
+                <p id="results2"></p>
+            </div>
+        </div>
+    </body>
+</html>

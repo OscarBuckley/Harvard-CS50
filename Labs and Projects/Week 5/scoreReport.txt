@@ -1,0 +1,8 @@
+Week 5 - Data Structures
+------------------------
+inheritance
+Score: 100%
+-----------
+speller
+Score: 83%
+# there's something wrong with the word check for a few but the code was too complicated to be debugged without massive effort. Too Bad!

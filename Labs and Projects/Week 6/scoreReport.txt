@@ -1,0 +1,20 @@
+Week 6 - Python
+---------------
+world-cup
+Score: 100%
+# I solved this one using recursion but the system marked me as wrong and had to rewrite the thing. Very invonvenient.
+------------------
+sentimental-hello
+Score: 100%
+----------------------
+sentimental-mario-more
+Score: 100%
+----------------
+sentimental-cash
+Score: 100%
+-----------------------
+sentimental-readability
+Score: 100%
+---------------
+dna
+Score: 100%

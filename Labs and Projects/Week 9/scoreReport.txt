@@ -1,0 +1,8 @@
+Week 9 - Flask
+--------------
+birthdays
+Score: 100%
+------------------
+finance
+Score: 77%
+# I only did /register /quote and /buy. Then I got too tired because of the amount of documentation required to understand the entire thing and just submitted it since it passed the 70% threshold. Too Bad!
